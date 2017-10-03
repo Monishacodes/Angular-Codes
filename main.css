@@ -1,0 +1,42 @@
+.data {
+    background-color: cadetblue;
+     padding: 20px;
+    margin: 10px;
+    color: #fff;
+    font-size: 21px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+button {
+    background-color: #3197FF;
+    padding: 7px;
+    color: #fff;
+    font-weight: 500;
+    border: 1px solid  #3197FF;
+    border-radius: 2px;
+    
+}
+button:hover{
+    background-color: #286090;
+}
+input {
+    height: 24px;
+    font-size: 18px;
+}
+label {
+    font-size: 18px;
+    
+}
+.input {
+    text-align: center;
+    background-color: #ccc;
+    padding: 50px;
+}
+.container h1 {
+    background-color: black;
+    color: #fff;padding: 40px;
+    
+    text-align: center;font-family: 'Open Sans', sans-serif;
+}

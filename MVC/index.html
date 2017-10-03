@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MVC </title>
+    <script src="js/angular.min.js"></script>
+     <script src="js/app.js"></script>
+     <script src="js/factory.js"></script>
+    <script src="js/controller.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+</head>
+<body ng-app="myapp" ng-controller="myctrl">
+  <div class="container">
+   <h1>Employees Salary status</h1>
+      
+      </div>
+  <div class="input"><label>Salary</label> <input type="number" ng-model="sal">
+    <button ng-click="compute()">Compute</button></div>
+   
+    <br><br>
+    <br>
+    <div class="data">
+    <table>
+        <tr>
+        <td>House Rent Allowance(HRA)</td><td>:{{hra}}</td>
+        </tr>
+        <tr> <td>Dearness Allowance (DA)</td><td>:{{da}}</td></tr>
+        <tr><td>Travelling Allowance (TA)</td><td>:{{ta}}</td></tr>
+       <tr>
+           <td>Provident fund (PF)</td><td>:{{pf}}</td>
+       </tr>
+       <tr><td>Gross Salary (GS)</td><td>:{{gs}}</td></tr>
+        <tr>
+            <td>Net Salary (NS)</td><td>:{{ns}}</td>
+        </tr>
+        <tr>
+            <td>Grade </td><td>:{{grade}}</td>
+        </tr>
+        
+    </table>
+    
+    
+     <!--Grade : {{grade.color }}-->
+     
+    </div>
+    
+</body>
+</html>
